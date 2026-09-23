@@ -1,0 +1,15 @@
+# Arquivos temporários do R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Dados sensíveis (opcional - descomente se não quiser subir os dados)
+# dados/raw/pedidos.csv
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
