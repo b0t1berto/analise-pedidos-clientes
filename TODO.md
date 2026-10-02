@@ -6,13 +6,13 @@
 - [x] Configurar `.gitignore`
 
 ## 🧹 Fase 2: Importação e Limpeza de Dados
-- [ ] Criar o script `R/01_limpeza_dados.R`
-- [ ] Ler o CSV com `readr::read_csv()`
-- [ ] Inspecionar tipos de variáveis (`str()`, `glimpse()`)
-- [ ] Tratar valores ausentes (`NA`) em `monthly_income` e `family_size`
-- [ ] Padronizar categorias de `occupation` e `educational_qualification`
-- [ ] Criar colunas derivadas: `faixa_etaria`, `faixa_renda`
-- [ ] Salvar a base limpa em `dados/processed/pedidos_limpos.csv`
+- [X] Criar o script `R/01_limpeza_dados.R`
+- [X] Ler o CSV com `readr::read_csv()`
+- [X] Inspecionar tipos de variáveis (`str()`, `glimpse()`)
+- [X] Tratar valores ausentes (`NA`) em `monthly_income` e `family_size`
+- [X] Padronizar categorias de `occupation` e `educational_qualification`
+- [X] Criar colunas derivadas: `faixa_etaria`, `faixa_renda`
+- [X] Salvar a base limpa em `dados/processed/pedidos_limpos.csv`
 
 ## 📊 Fase 3: Análise Exploratória e Métricas
 - [ ] Criar o script `R/02_analise_exploratoria.R`
