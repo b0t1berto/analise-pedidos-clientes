@@ -15,11 +15,11 @@
 - [X] Salvar a base limpa em `dados/processed/pedidos_limpos.csv`
 
 ## 📊 Fase 3: Análise Exploratória e Métricas
-- [ ] Criar o script `R/02_analise_exploratoria.R`
-- [ ] Qual faixa etária mais consome o serviço?
-- [ ] Existe relação entre renda mensal e `customer_type`?
-- [ ] Estudantes ou profissionais pedem mais?
-- [ ] Famílias maiores tendem a ser clientes recorrentes?
+- [X] Criar o script `R/02_analise_exploratoria.R`
+- [X] Qual nível de ocupação tem maior taxa de retorno?
+- [X] Qual a proporção de feedbacks positivos por nível de ocupação?
+- [X] Quais combinações de ocupação, renda e estado civil formam os maiores segmentos?
+- [X] Qual região possui maior taxa de feedbacks negativos?
 
 ## 🖼️ Fase 4: Visualizações e Relatórios
 - [ ] Barras: `customer_type` por faixa etária
