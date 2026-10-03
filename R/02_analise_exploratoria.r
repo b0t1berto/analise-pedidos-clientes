@@ -20,7 +20,7 @@ df |> group_by(occupation) |>
 
 
 # Proporção de feedbacks positivos em cada nível de ocupação
-df |>
+tabela1 <- df |>
   group_by(occupation) |>
   summarise(
     clientes = n(),
@@ -31,16 +31,17 @@ df |>
 
 
 # Quais combinações de ocupação, renda e estado civil formam os maiores segmentos
-df |>
+tabela2 <- df |>
   group_by(occupation, marital_status, monthly_income) |>
   summarise(
-    clientes = n()
+    clientes = n(),
+    .groups = "drop"
   ) |>
   arrange(desc(clientes))
 
 
 # Qual região possui maior taxa de feedbacks negativos
-df |>
+tabela3 <- df |>
   group_by(pin_code) |>
   summarise(
     clientes = n(),
