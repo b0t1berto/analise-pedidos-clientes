@@ -22,10 +22,10 @@
 - [X] Qual região possui maior taxa de feedbacks negativos?
 
 ## 🖼️ Fase 4: Visualizações e Relatórios
-- [ ] Barras: `customer_type` por faixa etária
-- [ ] Boxplot: `monthly_income` por `customer_type`
-- [ ] Barras empilhadas: `occupation` x `customer_type`
-- [ ] Salvar gráficos em `graficos/` (`.png`, alta resolução)
+- [X] Barras: gráfico de taxa de tetorno
+- [X] Barras: gráfico `occupation` x `percent_positivo`
+- [X] Barras empilhadas: gráfico de feedback negativo por região
+- [X] Salvar gráficos em `graficos/` (`.png`, alta resolução)
 
 ## 🚀 Fase 5: Documentação e Git Workflow
 - [ ] Escrever o `README.md`
