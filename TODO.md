@@ -10,8 +10,6 @@
 - [X] Ler o CSV com `readr::read_csv()`
 - [X] Inspecionar tipos de variáveis (`str()`, `glimpse()`)
 - [X] Tratar valores ausentes (`NA`) em `monthly_income` e `family_size`
-- [X] Padronizar categorias de `occupation` e `educational_qualification`
-- [X] Criar colunas derivadas: `faixa_etaria`, `faixa_renda`
 - [X] Salvar a base limpa em `dados/processed/pedidos_limpos.csv`
 
 ## 📊 Fase 3: Análise Exploratória e Métricas
@@ -22,7 +20,7 @@
 - [X] Qual região possui maior taxa de feedbacks negativos?
 
 ## 🖼️ Fase 4: Visualizações e Relatórios
-- [X] Barras: gráfico de taxa de tetorno
+- [X] Barras: gráfico de taxa de retorno
 - [X] Barras: gráfico `occupation` x `percent_positivo`
 - [X] Barras empilhadas: gráfico de feedback negativo por região
 - [X] Salvar gráficos em `graficos/` (`.png`, alta resolução)

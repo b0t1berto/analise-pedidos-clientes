@@ -29,8 +29,6 @@ grafico_taxa_positivo <- ggplot(
     y = "Taxa de feedback positivo"
   ) + theme_minimal()
 
-grafico_taxa_positivo  
-
 ggsave("graficos/taxa_de_feedback_positivo.png", plot = grafico_taxa_positivo)
   
 
